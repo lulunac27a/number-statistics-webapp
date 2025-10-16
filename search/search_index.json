@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Number Statistics Web App","text":"<p>This app is number statistics app that shoes the list of numbers entered by the user. </p>"}]}
