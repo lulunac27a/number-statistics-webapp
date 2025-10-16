@@ -5,7 +5,7 @@ const sortedNumbersListText = document.getElementById("sorted-numbers-list");
 const numberCountText = document.getElementById("number-count");
 const numbers = [];
 addNumberButton.addEventListener("click", () => {
-    numbers.push(parseFloat(numberInputText.value));
+    numbers.push(parseFloat(numberInputText.value, 10));
     const sortedNumbers = [...numbers].sort((a, b) => a - b);
     numbersListText.innerText = numbers.join(", ");
     sortedNumbersListText.innerText = sortedNumbers.join(", ");
