@@ -1,5 +1,6 @@
 * {
     /*global styles*/
-    font-family: sans-serif; /*set default font top system-based font*/
+    font-family:
+        system-ui, sans-serif; /*set default font top system-based font*/
     line-height: 150%; /*set default line height to 150%*/
 }
