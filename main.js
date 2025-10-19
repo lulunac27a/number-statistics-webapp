@@ -9,7 +9,7 @@ const meanText = document.getElementById("mean-text"); //mean (average) number t
 const numbers = []; //numbers list
 addNumberButton.addEventListener("click", () => {
     //when add number button is pressed
-    numbers.push(parseFloat(numberInputText.value, 10)); //parse entered numeric value as floating point number
+    numbers.push(parseFloat(numberInputText.value, 10) || 0); //parse entered numeric value as floating point number
     const sum = numbers.reduce((acc, currentValue) => acc + currentValue, 0); //get sum of all numbers in array list
     const average = sum / numbers.length; //get average of all numbers in array list
     const sortedNumbers = [...numbers].sort((a, b) => a - b); //sort numbers in ascending order
