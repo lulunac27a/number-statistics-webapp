@@ -18,5 +18,5 @@ addNumberButton.addEventListener("click", () => {
     numberCountText.innerText = numbers.length; //update number count length text
     minimumText.innerText = Math.min(...numbers); //update minimum text
     maximumText.innerText = Math.max(...numbers); //update maximum text
-    meanText.innerText = sum / average; //update mean (average) text
+    meanText.innerText = average; //update mean (average) text
 });
